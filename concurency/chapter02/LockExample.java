@@ -1,6 +1,6 @@
 package chapter02;
 
-public class App {
+public class LockExample {
     private static int counter = 0;
     private static Object lock = new Object();
     public static void main(String[] args) {
